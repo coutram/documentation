@@ -18,7 +18,7 @@ The Land Manager allows you to:
 - **Merge** LAND parcels into an Estate.
 - **Dissolve** an Estate into separate LAND parcels.
 - **Transfer** your parcels and Estates to another user.
-- **Grant permissions** to other users to edit the parcels you own.
+- **Set Operator** to permit other users to edit the parcels you own.
 
 ## Manage Your LAND
 
@@ -65,15 +65,15 @@ To edit a parcel or Estate:
 2. Click **Submit**.
 3. Confirm this transaction on your Ethereum client and wait for the network to verify it.
 
-## Give permissions
+## Allow another user the ability to deploy to LAND
 
-You can give another user permissions to edit the content in a parcel or Estate. This enables that user to deploy code to the scene, whilst not having the ability to sell the token.
+You can give another user permissions by using the 'set operator' feature to edit the content in a parcel or Estate. This enables that user to deploy code to the scene, whilst not having the ability to sell the token.
 
 The user given permission can also change the name or description in the Marketplace.
 
 To grant permissions over your LAND:
 
-1. Navigate to the details page of the parcel or Estate and click **Permissions**.
+1. Navigate to the details page of the parcel or Estate and on the three dots on the right side of the page to drop down to the 'Set Operator' button.
 
    ![]({{ site.baseurl }}/images/media/marketplace_give_permissions.png)
 
@@ -95,8 +95,6 @@ Click a transaction to see more details about it on Etherscan.
 To transfer a LAND parcel or Estate to another user:
 
 1. Navigate to the details page of the parcel or the Estate you'd like to transfer and click **Transfer**.
-
-   ![]({{ site.baseurl }}/images/media/marketplace_transfer_land.png)
 
 2. Enter the public address of the Ethereum wallet of the recipient.
 
